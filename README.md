@@ -1,5 +1,5 @@
 # UiPathAxe508
-This githun project has details on how to use a UiPath  library and Axe Dev Tools plugin for google chrome browser to perform 508 testing
+This github project has details on how to use a UiPath library and Axe Dev Tools plugin for google chrome browser to perform 508 compliance testing
 
 As a Prerequisite, anyone using this project should already be aware of using UiPath for automation of their web application
 
@@ -11,9 +11,15 @@ I would expect anyone intending to use the UiPath Library Activity "PerformViusu
 https://github.com/my2239/UiPathAxe508/blob/main/AxeVisual508ScanLibrary.1.0.12.nupkg
 
 After downloading the packge above they should import it to a UiPath project of their choice
-Once these steps are completed, they should be able to call the Activity "PerformViusual508Scan" anytime passing just the folder where they would like their results like "C:\automation\axe_visual_508_reports". The folder should already exist in the windows computer running the test and should have write acces privileges for the user running the test. The path should be absolute and is NOT case sensitive.
+
+Once these steps are completed, they should be able to call the Activity "PerformViusual508Scan" anytime passing just the folder where they would like their results. 
+For Example:  "C:\automation\axe_visual_508_reports". 
+The folder should already exist in the windows computer running the test and should have write acces privileges for the user running the test.
+The path should be absolute and is NOT case sensitive.
 
 As an example, a UiPath Process that performs 508 scan using the library above is included
+https://github.com/my2239/UiPathAxe508/blob/main/CallAxeVisual508Scan.zip
+Fell free to download this project and open it using Uipath Studio to learn and model your tests accordingly
 
 If you would like to see how the package  AxeVisual508ScanLibrary.1.0.12.nupkg was built, I am including the source code for the UiPath Library
 https://github.com/my2239/UiPathAxe508/blob/main/AxeVisual508ScanLibrary.zip
