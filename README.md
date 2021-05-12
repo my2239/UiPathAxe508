@@ -7,8 +7,9 @@ In addition they need to address a few prerequisites described in the word docum
 Alternatively the PDF document can also be used to learn about prerequisites
 https://github.com/my2239/UiPathAxe508/blob/main/UiPath%20and%20Deque%20AxeDevToolsfor%20508%20testing.pdf
 
-I would expect anyone intending to use the UiPath Library Activity "PerformViusual508Scan" to go through the prerequisites above and download the package
-https://github.com/my2239/UiPathAxe508/blob/main/AxeVisual508ScanLibrary.Activities1.0.0.nupkg
+I would expect anyone intending to use the UiPath Library Activity "PerformViusual508Scan" to go through the prerequisites above and download the package from either of the sources below
+https://marketplace.uipath.com/listings/2810
+https://github.com/my2239/UiPathAxe508/blob/main/AxeVisual508ScanLibrary.Activities.1.0.0.nupkg
 
 After downloading the packge above they should import it to a UiPath project of their choice
 
@@ -21,7 +22,8 @@ As an example, a UiPath Process that performs 508 scan using the library above i
 https://github.com/my2239/UiPathAxe508/blob/main/CallAxeVisual508Scan.zip
 Fell free to download this project and open it using Uipath Studio to learn and model your tests accordingly
 
-If you would like to see how the package  AxeVisual508ScanLibrary.1.0.12.nupkg was built, I am including the source code for the UiPath Library
+If you would like to see how the package was built, I am including the source code for the UiPath Library
+
 https://github.com/my2239/UiPathAxe508/blob/main/AxeVisual508ScanLibrary.zip
 
 Please feel free to reach me at ymahesh@gmail.com if you have any questions
